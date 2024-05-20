@@ -150,3 +150,78 @@ p{
 }
 /* INDEX.FIN IMAGENES TRILOGIA */
 
+
+
+/* NOSOTROS.INICIO SUBSCRIBE */
+.subscribe-NOSOTROS{
+    margin-top: 0px;
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+/* NOSOTROS.FIN SUBSCRIBE */
+
+
+/* NOSOTROS.INICIO CONTENIDO PPAL */
+
+/* div padre: */
+.nosotros-content-padre{
+display: flex;
+flex-direction: row;
+width: 100vw;
+}
+
+/* div 1 dentro del principal: */
+.div-1{
+    width: 65vw;
+    padding: 10px 50px 10px 80px;
+    background-color: #fff;
+}
+
+/* div primer texto:  */
+.nosotros-text-1{
+    padding: 20px;
+}
+
+/* div segundo texto:  */
+.nosotros-text-2{
+    background-color: #35424A;
+    padding: 20px;
+}
+.nosotros-text-2 p{
+    color: #fff;
+}
+
+/* contenedor de la imagen:  */
+.imagen-891-contenedor{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* div 2 dentro de el principal:  */
+.div-2{
+    width: 35vw;
+    padding: 10px 30px;
+    background-color: #ffffff;
+}
+
+/* div 2 - contenedor del texto:  */
+.que-hacemos{
+    margin-top: 20px;
+    background-color: #35424A;
+    width: 75%;
+    padding: 30px;
+    padding-left: 15px;
+}
+.que-hacemos h2{
+    color: #fff;
+    margin-top: 0;
+}
+.que-hacemos p{
+    color: #fff;
+}
+/* NOSOTROS.FIN CONTENIDO PPAL */
