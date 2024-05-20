@@ -1,3 +1,5 @@
+        /* DO NOT TOUCH -------->*/
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +7,7 @@ body {
     background-color: #1293D4;
 }
 
+/* INICIO HEADER: */
 header {
     display: flex;
     background-color: #333;
@@ -13,6 +16,7 @@ header {
     text-align: center;
     height: 80px;
     margin-bottom: 5px;
+    width: 100vw;
 }
 
 .navigator {
@@ -47,5 +51,102 @@ nav a:hover {
 .inicio{
     color: #1293D4;
 }
+/* FIN HEADER */
 
+
+/* INICIO SUBSCRIBETE */
+.subscribe{
+    margin-top: -5px;
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+.text{
+    line-height: 40px;
+    color: #fff;
+}
+
+.btn{
+    width: 100px;
+    background-color: #E8491F;
+    margin: 0;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+}
+.input{
+    padding: 8px;
+    padding-right: 80px;
+}
+/* FIN SUBSCRIBETE */
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 100vw;
+    color: #fff;
+}
+/* FIN FOOTER */
+
+        /* DO NOT TOUCH <--------*/
+
+
+/* INDEX.INICIO IMAGEN CABECERA CON TEXTO */
+.imagen-cabecera-contenedor {
+    position: relative;
+    width: 100vw;
+}
+
+.imagen-cabecera {
+    width: 100%;
+    height: auto;
+}
+
+.texto-imagen{
+    position: absolute; /* Permite la colocación precisa dentro del contenedor */
+    top: 50%; /* Posiciona el borde superior al 50% del contenedor */
+    left: 50%; /* Posiciona el borde izquierdo al 50% del contenedor */
+    transform: translate(-50%, -50%); /* Mueve el elemento hacia atrás en un 50% de su ancho y alto */
+    text-align: center;
+}
+.texto-imagen h1{
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+.texto-imagen p{
+    color: #fff;
+    margin-top: 30px;
+}
+/* INDEX.FIN IMAGEN CABECERA CON TEXTO */
+
+
+/* INDEX.INICIO IMAGENES TRILOGIA */
+.trilogy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+p{
+    margin: 0;
+}
+.html,
+.css,
+.diseño-grafico{
+    padding: 35px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* INDEX.FIN IMAGENES TRILOGIA */
 
