@@ -202,6 +202,9 @@ width: 100vw;
     margin-top: 20px;
     margin-bottom: 5px;
 }
+.imagen-891-contenedor img{
+    width: 100%
+}
 
 /* div 2 dentro de el principal:  */
 .div-2{
