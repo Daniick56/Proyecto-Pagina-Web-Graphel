@@ -37,7 +37,8 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #1293D4;
+    transform: scale(1.05);
 }
 
 .title{
@@ -204,6 +205,8 @@ width: 100vw;
 
 /* div 2 dentro de el principal:  */
 .div-2{
+    display: flex;
+    flex-direction: column;
     width: 35vw;
     padding: 10px 30px;
     background-color: #ffffff;
@@ -216,6 +219,7 @@ width: 100vw;
     width: 75%;
     padding: 30px;
     padding-left: 15px;
+    border-radius: 2px;
 }
 .que-hacemos h2{
     color: #fff;
@@ -225,3 +229,158 @@ width: 100vw;
     color: #fff;
 }
 /* NOSOTROS.FIN CONTENIDO PPAL */
+
+
+/* SERVICIOS.INICIO CONTENIDO PPAL */
+
+/* contenedor padre de los textos */
+.servicios-content-padre{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+/* contenedor textos */
+.div-1-textos{
+    width: 65vw;
+    padding: 10px 50px 10px 80px;
+    background-color: #fff;
+}
+
+/* contenedor texto1 */
+.div-1-texto-1{
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+
+/* contenedor texto2 */
+.div-1-texto-2{
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+
+/* contennedor texto3 */
+.div-1-texto-3{
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+/* SERVICIOS.FIN CONTENIDO PPAL */
+
+
+/* CONTACTO.INICIO CONTENIDO PPAL */
+
+/* contenedor padre:  */
+.contacto-content-padre{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #fff;
+}
+
+/* contenedor form:  */
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    text-align: left;
+    padding: 0px 60px 0px 180px;
+}
+
+/* form:  */
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input{
+    background-color: #cccccc1c;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+textarea{
+    height: 50px;
+}
+
+.contact-form button {
+    background-color: #1293D4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0a7bbd;
+}
+
+
+/* imagen mapa:  */
+.mapa-container{
+    padding-top: 20px;
+}
+.mapa-container img{
+    width: 80%;
+}
+
+
+
+/* CAMBIANDO EL COLOR DE LOS BOTONES HEADER */
+
+/* SERVICIOS:  */
+.inicio-servicios{
+    color: #fff;
+}
+.nosotros-servicios{
+    color: #fff;
+}
+.servicios-servicios{
+    color: #1293D4;
+}
+.contacto-servicios{
+    color: #fff;
+}
+
+/* NOSOTROS:  */
+.inicio-nosotros{
+    color: #fff;
+}
+.nosotros-nosotros{
+    color: #1293D4;
+}
+.servicios-nosotros{
+    color: #fff;
+}
+.contacto-nosotros{
+    color: #fff;
+}
+
+/* CONTACTO:  */
+.inicio-contacto{
+    color: #fff;
+}
+.nosotros-contacto{
+    color: #fff;
+}
+.servicios-contacto{
+    color: #fff;
+}
+.contacto-contacto{
+    color: #1293D4;
+}
