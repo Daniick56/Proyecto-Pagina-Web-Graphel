@@ -260,6 +260,9 @@ width: 100vw;
     padding: 10px 50px 80px 80px;
     background-color: #fff;
 }
+.div-1-textos h2{
+    margin-left: 5px;
+}
 
 /* contenedor texto1 */
 .div-1-texto-1{
