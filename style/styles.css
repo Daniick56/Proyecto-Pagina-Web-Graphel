@@ -149,6 +149,17 @@ p{
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
+.html img,
+.css img,
+.diseño-grafico img{
+    width: 120px;
+}
+.html{
+    margin-right: -25px;
+}
+.diseño-grafico{
+    margin-left: -25px;
+}
 /* INDEX.FIN IMAGENES TRILOGIA */
 
 
