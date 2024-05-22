@@ -190,19 +190,21 @@ width: 100vw;
 /* div 1 dentro del principal: */
 .div-1{
     width: 65vw;
-    padding: 10px 50px 10px 80px;
+    padding: 20px 80px 60px 150px;
     background-color: #fff;
 }
 
 /* div primer texto:  */
 .nosotros-text-1{
     padding: 20px;
+    padding-bottom: 40px;
 }
 
 /* div segundo texto:  */
 .nosotros-text-2{
     background-color: #35424A;
     padding: 20px;
+    margin: 20px 0;
 }
 .nosotros-text-2 p{
     color: #fff;
@@ -228,7 +230,7 @@ width: 100vw;
 
 /* div 2 - contenedor del texto:  */
 .que-hacemos{
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: #35424A;
     width: 75%;
     padding: 30px;
@@ -257,7 +259,7 @@ width: 100vw;
 /* contenedor textos */
 .div-1-textos{
     width: 65vw;
-    padding: 10px 50px 80px 80px;
+    padding: 40px 50px 80px 80px;
     background-color: #fff;
 }
 .div-1-textos h2{
