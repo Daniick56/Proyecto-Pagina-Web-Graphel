@@ -78,10 +78,17 @@ nav a:hover {
     border: 0;
     color: #fff;
     padding: 10px;
+    border-radius: 3px;
+    transition: transform 0.2s ease;
 }
+.btn:hover{
+    transform: scale(1.02);
+}
+
 .input{
     padding: 8px;
     padding-right: 80px;
+    border-radius: 3px;
 }
 /* FIN SUBSCRIBETE */
 
@@ -148,11 +155,21 @@ p{
     padding: 35px;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    overflow: hidden;
 }
+
+.html-image-div:hover .html-image,
+.css-image-div:hover .css-image,
+.diseño-image-div:hover .diseño-image{
+    transform: scale(1.2); /* Escala la imagen */
+}
+
 .html img,
 .css img,
 .diseño-grafico img{
     width: 120px;
+    transition: transform 0.5s ease; /* Transición suave */
+
 }
 .html{
     margin-right: -25px;
@@ -198,6 +215,7 @@ width: 100vw;
 .nosotros-text-1{
     padding: 20px;
     padding-bottom: 40px;
+    border-radius: 2px;
 }
 
 /* div segundo texto:  */
@@ -205,6 +223,7 @@ width: 100vw;
     background-color: #35424A;
     padding: 20px;
     margin: 20px 0;
+    border-radius: 2px;
 }
 .nosotros-text-2 p{
     color: #fff;
@@ -216,7 +235,8 @@ width: 100vw;
     margin-bottom: 5px;
 }
 .imagen-891-contenedor img{
-    width: 100%
+    width: 100%;
+    border-radius: 2px;
 }
 
 /* div 2 dentro de el principal:  */
@@ -284,7 +304,7 @@ width: 100vw;
     border-radius: 2px;
 }
 
-/* contennedor texto3 */
+/* contenedor texto3 */
 .div-1-texto-3{
     background-color: #E6E6E6;
     padding: 20px;
@@ -332,7 +352,7 @@ width: 100vw;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 textarea{
     height: 120px;
@@ -348,7 +368,9 @@ textarea{
 .contact-form button:hover {
     background-color: #0a7bbd;
 }
-
+.contact-form label{
+    border-radius: 10px;
+}
 
 /* imagen mapa:  */
 .mapa-container{
@@ -357,6 +379,7 @@ textarea{
 .mapa-container img{
     width: 80%;
     padding-bottom: 200px;
+    border-radius: 2px;
 }
 
 
